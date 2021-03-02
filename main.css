@@ -1,0 +1,80 @@
+/* CSS reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+.profile-card{
+  background-color: hsla(60, 100%, 50%, 40);
+}
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head, .section-links {
+  text-align: center;
+}
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+img {
+  width: 120px;
+  height: 120px;
+  border-radius:50%;
+}
+.profile-image {
+  margin-top: -60px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+} 
+head, .about {
+  margin-bottom: 2%;
+}
+.content {
+  padding: 5% 10%;
+}
+body {
+  background: url('assets/mallorca.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .7);
+  border-radius: 40px;
+  box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 80px;
+}
+img {
+  padding: 1px;
+  background-color: #666;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(10%);
+}
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+h1, h2, h3{
+  color: #444;
+}
+p{
+  color: darkslategray;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2em;
+}
+i:hover{
+  transform: scale(1.2);
+}
