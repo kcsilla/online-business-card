@@ -38,6 +38,7 @@ ul {
 }
 li {
   display: inline;
+  padding: 4px;
 } 
 head, .about {
   margin-bottom: 2%;
@@ -62,6 +63,7 @@ img {
 }
 .content {
   border-top: 1px solid hsla(0, 0%, 30%, .8);
+  margin-top: 5px;
 }
 img:hover {
   transform: scale(1.1);
@@ -69,6 +71,7 @@ img:hover {
 }
 h1, h2, h3{
   color: #444;
+  letter-spacing: .02em;
 }
 p{
   color: darkslategray;
@@ -77,4 +80,24 @@ p{
 }
 i:hover{
   transform: scale(1.2);
+}
+a{
+  font-size: 20px;
+}
+h1{
+  font-size: 27px;
+  font-family: 'Lobster', cursive; 
+}
+h2{
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 16px;
+}
+.smaller{
+ font-size: 15px; 
+  font-family: "Times New Roman", Times,     serif;
+}
+.section-name{
+  font-family: 'Inconsolata', monospace;
+  font-size: 19px;
+  letter-spacing: .02em;
 }
